@@ -1,17 +1,16 @@
 
-object project2 {
+object project4 {
 
   def main(args: Array[String]) : Unit = {
 
-  println("enter the radius value: ");
-    val radius = 5;
-    val pi= 3.14;
-    val area = pi * radius * radius;
-    println("area is: " + area);
-
-
+  calculate();
 
   }
+  def calculate(): Unit = {
+    val temp = 35;
+    val farah = temp * 1.800 + 32.00;
+    println("fahrenheit of 35c is " + farah + "f");
 
+  }
 
 }
